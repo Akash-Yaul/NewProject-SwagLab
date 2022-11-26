@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-04T16:05:08 IST" name="Default suite" finished-at="2022-11-04T16:05:42 IST" duration-ms="34053">
+  <suite started-at="2022-11-15T16:15:49 IST" name="Default suite" finished-at="2022-11-15T16:16:29 IST" duration-ms="40159">
     <groups>
     </groups>
-    <test started-at="2022-11-04T16:05:08 IST" name="Default test" finished-at="2022-11-04T16:05:42 IST" duration-ms="34053">
-      <class name="test.VerifyAddToCartFunctionality">
-        <test-method is-config="true" signature="configureReport()[pri:0, instance:test.VerifyAddToCartFunctionality@61001b64]" started-at="2022-11-04T16:05:08 IST" name="configureReport" finished-at="2022-11-04T16:05:10 IST" duration-ms="1561" status="PASS">
+    <test started-at="2022-11-15T16:15:49 IST" name="Default test" finished-at="2022-11-15T16:16:29 IST" duration-ms="40159">
+      <class name="test.SwagLabHomePage2">
+        <test-method is-config="true" signature="configureReport()[pri:0, instance:test.SwagLabHomePage2@26e356f0]" started-at="2022-11-15T16:15:49 IST" name="configureReport" finished-at="2022-11-15T16:15:50 IST" duration-ms="784" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureReport -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.VerifyAddToCartFunctionality@61001b64]" started-at="2022-11-04T16:05:10 IST" name="launchBrowser" finished-at="2022-11-04T16:05:36 IST" duration-ms="25864" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.SwagLabHomePage2@26e356f0]" started-at="2022-11-15T16:15:50 IST" name="launchBrowser" finished-at="2022-11-15T16:16:27 IST" duration-ms="37432" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyAddToCartFunctionality()[pri:0, instance:test.VerifyAddToCartFunctionality@61001b64]" started-at="2022-11-04T16:05:36 IST" name="verifyAddToCartFunctionality" finished-at="2022-11-04T16:05:39 IST" duration-ms="3112" status="FAIL">
+        <test-method signature="verifyAddCartFunctinality()[pri:0, instance:test.SwagLabHomePage2@26e356f0]" started-at="2022-11-15T16:16:27 IST" name="verifyAddCartFunctinality" finished-at="2022-11-15T16:16:28 IST" duration-ms="671" status="FAIL">
           <exception class="java.lang.IndexOutOfBoundsException">
             <message>
-              <![CDATA[Index 1 out of bounds for length 1]]>
+              <![CDATA[Index 3 out of bounds for length 3]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 3
 at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
 at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
 at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
@@ -32,9 +32,9 @@ at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAc
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:40)
-at jdk.proxy2/jdk.proxy2.$Proxy20.get(Unknown Source)
-at pom.SwagLabLandingPage.isRemoveButtonDisplayed(SwagLabLandingPage.java:76)
-at test.VerifyAddToCartFunctionality.verifyAddToCartFunctionality(VerifyAddToCartFunctionality.java:44)
+at jdk.proxy2/jdk.proxy2.$Proxy21.get(Unknown Source)
+at pom.SwagLabLandingPage.addProductToCart(SwagLabLandingPage.java:33)
+at test.SwagLabHomePage2.verifyAddCartFunctinality(SwagLabHomePage2.java:45)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -68,23 +68,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.IndexOutOfBoundsException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAddToCartFunctionality -->
-        <test-method is-config="true" signature="getTestResults(org.testng.ITestResult)[pri:0, instance:test.VerifyAddToCartFunctionality@61001b64]" started-at="2022-11-04T16:05:39 IST" name="getTestResults" finished-at="2022-11-04T16:05:39 IST" duration-ms="40" status="PASS">
+        </test-method> <!-- verifyAddCartFunctinality -->
+        <test-method is-config="true" signature="logReport(org.testng.ITestResult)[pri:0, instance:test.SwagLabHomePage2@26e356f0]" started-at="2022-11-15T16:16:28 IST" name="logReport" finished-at="2022-11-15T16:16:28 IST" duration-ms="23" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyAddToCartFunctionality status=FAILURE method=VerifyAddToCartFunctionality.verifyAddToCartFunctionality()[pri:0, instance:test.VerifyAddToCartFunctionality@61001b64] output={null}]]]>
+                <![CDATA[[TestResult name=verifyAddCartFunctinality status=FAILURE method=SwagLabHomePage2.verifyAddCartFunctinality()[pri:0, instance:test.SwagLabHomePage2@26e356f0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getTestResults -->
-        <test-method is-config="true" signature="publishResult()[pri:0, instance:test.VerifyAddToCartFunctionality@61001b64]" started-at="2022-11-04T16:05:39 IST" name="publishResult" finished-at="2022-11-04T16:05:42 IST" duration-ms="3342" status="PASS">
+        </test-method> <!-- logReport -->
+        <test-method is-config="true" signature="clearReport()[pri:0, instance:test.SwagLabHomePage2@26e356f0]" started-at="2022-11-15T16:16:28 IST" name="clearReport" finished-at="2022-11-15T16:16:29 IST" duration-ms="897" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- publishResult -->
-      </class> <!-- test.VerifyAddToCartFunctionality -->
+        </test-method> <!-- clearReport -->
+      </class> <!-- test.SwagLabHomePage2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

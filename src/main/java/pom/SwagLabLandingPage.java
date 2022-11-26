@@ -29,8 +29,8 @@ public	SwagLabLandingPage (WebDriver driver) {
 	PageFactory.initElements(driver, this);
 }
 	
-	public void addProductToCart(int product) {
-		addToCart.get(product).click();
+	public void addProductToCart(int i) {
+		addToCart.get(i).click();
 	}
 	public void removeProductFromCart(int product) {
 		removeFromCart.get(product).click();
